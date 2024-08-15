@@ -1,0 +1,115 @@
+/* Body HTML */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* No-Scroll Class */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Cover Section */
+#Cover {
+  background-image: url(assets/bg-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  font-family: "Dancing Script", Poppins;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* Border Style */
+.border {
+  transition-duration: 0.5s;
+  padding: 16px 40px;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #ffffff5e;
+  margin: 20px;
+  display: inline-block;
+}
+
+.border:hover {
+  padding: 40px 60px;
+  background-color: #fff2355e;
+  font-size: 20px;
+}
+
+/* Button Styles */
+.button {
+  margin-top: 5px;
+  padding: 15px 30px;
+  background-color: #ffffff5d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  background-color: #fff2355e;
+  padding: 20px 45px;
+  color: white;
+}
+
+/* Main Content */
+#main {
+  display: none;
+  padding: 20px;
+}
+
+.qoutes,
+.pengantin,
+.event {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Geometric Decorations */
+.geometri-r,
+.geometri-l {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.geometri-r {
+  left: 80%;
+  transform: translateX(-50%);
+  margin: 8rem;
+}
+
+.geometri-l {
+  right: 0%;
+  transform: translateX(-50%);
+  margin: 7rem;
+}
